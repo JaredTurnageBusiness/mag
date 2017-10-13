@@ -60,6 +60,10 @@ public class Magpie2
 		{
 			response = "I want turkey juice.";
 		}
+		else if (statement.indexOf("brett") >= 0)
+		{
+			response = "What a loser.";
+		}
 		else {
 			response = getRandomResponse();
 		}
